@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apka_vol4">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CurrencyActivityUSD"></activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CurrencyActivityGBP" />
+        <activity android:name=".CurrencyActivityCHF" />
+        <activity android:name=".CurrencyActivityZAR" />
+        <activity android:name=".CurrencyActivityTRY" />
+        <activity android:name=".CurrencyActivityTHB" />
+        <activity android:name=".CurrencyActivitySGD" />
+        <activity android:name=".CurrencyActivitySEK" />
+        <activity android:name=".CurrencyActivityRUB" />
+        <activity android:name=".CurrencyActivityRON" />
+        <activity android:name=".CurrencyActivityPHP" />
+        <activity android:name=".CurrencyActivityNZD" />
+        <activity android:name=".CurrencyActivityNOK" />
+        <activity android:name=".CurrencyActivityMYR" />
+        <activity android:name=".CurrencyActivityMXN" />
+        <activity android:name=".CurrencyActivityKRW" />
+        <activity android:name=".CurrencyActivityJPY" />
+        <activity android:name=".CurrencyActivityISK" />
+        <activity android:name=".CurrencyActivityINR" />
+        <activity android:name=".CurrencyActivityILS" />
+        <activity android:name=".CurrencyActivityCNY" />
+        <activity android:name=".CurrencyActivityCZK" />
+        <activity android:name=".CurrencyActivityDKK" />
+        <activity android:name=".CurrencyActivityEUR" />
+        <activity android:name=".CurrencyActivityHKD" />
+        <activity android:name=".CurrencyActivityHRK" />
+        <activity android:name=".CurrencyActivityHUF" />
+        <activity android:name=".CurrencyActivityIDR" />
+        <activity android:name=".CurrencyActivityAUD" />
+        <activity android:name=".CurrencyActivityBGN" />
+        <activity android:name=".CurrencyActivityBRL" />
+        <activity android:name=".CurrencyActivityCAD" />
+    </application>
+
+</manifest>
